@@ -25,3 +25,43 @@ A modern interactive coffee shop dashboard built with Python and Streamlit. This
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/coffee-shop-dashboard.git
+
+   Navigate to the project directory:
+
+2. cd coffee-shop-dashboard
+
+
+3. Install required packages:
+
+4. pip install -r requirements.txt
+
+
+5. Run the app:
+
+6. streamlit run app.py
+
+
+Your app should now be live at http://localhost:8501.
+
+File Structure
+coffee-shop-dashboard/
+├── app.py                # Main Streamlit application file
+├── main.py               # Contains Coffee and Order classes
+├── requirements.txt      # Dependencies file
+└── README.md             # This file
+
+Code Explanation
+
+main.py: Contains two main classes:
+
+Coffee: Represents each coffee item with a name and price.
+
+Order: Handles the order, allowing items to be added, removed, and the total price to be calculated.
+
+app.py: The Streamlit frontend, where users can interact with the coffee menu, select items, view their cart, and check out.
+
+Session State: The order is stored in the Streamlit session state, allowing it to persist throughout interactions.
+
+Contributing
+
+Feel free to fork the repository and submit pull requests if you have any improvements or new features in mind!

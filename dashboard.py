@@ -70,7 +70,7 @@ show_price = st.sidebar.checkbox("Show price details", value=True)
 if st.sidebar.button("Clear Order 🗑️"):
     st.session_state.order = Order()
     st.sidebar.success("Order cleared!")
-    st.experimental_rerun()
+    st.rerun()
 
 # ---------- HEADER / METRICS ----------
 st.title("Coffee Shop Dashboard")
@@ -167,3 +167,4 @@ with tab_order:
         st.info("Your cart is empty. Go to the menu tab and add some coffee first!")
 
 st.caption("A modern interactive dashboard for your coffee shop built with Streamlit.")
+

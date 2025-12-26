@@ -41,7 +41,7 @@ A modern interactive coffee shop dashboard built with Python and Streamlit. This
 6. streamlit run app.py
 
 
-Your app should now be live at http://localhost:8501.
+Your app should now be live at https://coffeeapp-saikoushik.streamlit.app/.
 
 File Structure
 coffee-shop-dashboard/
